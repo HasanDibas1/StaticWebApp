@@ -4,6 +4,9 @@
       "route": "/Profile*",
       "methods": [
         "delete"
+      ],
+      "allowedRoles": [
+        "authenticated"
       ]
     }
   ]
