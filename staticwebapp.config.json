@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "route": "/profile*",
+      "methods": [
+        "post"
+      ]
+    }
+  ]
+}
