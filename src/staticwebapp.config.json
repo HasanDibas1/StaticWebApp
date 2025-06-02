@@ -1,1 +1,14 @@
-
+{
+  "routes": [
+    {
+      "route": "/Profile/index.html",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "allowedRoles": [
+        "authenticated"
+      ]
+    }
+  ]
+}
