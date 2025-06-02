@@ -1,9 +1,10 @@
 {
   "routes": [
     {
-      "route": "/Profile*",
+      "route": "/Profile/index.html",
       "methods": [
-        "delete"
+        "get",
+        "post"
       ],
       "allowedRoles": [
         "authenticated"
