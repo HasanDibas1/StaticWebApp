@@ -1,6 +1,15 @@
 {
   "routes": [
     {
+      "route": "/Profile/index.html",
+      "methods": [
+        "get"
+      ],
+      "allowedRoles": [
+        "anonymous"
+      ]
+    },
+    {
       "route": "/*",
       "methods": [
         "get",
@@ -9,16 +18,8 @@
       "allowedRoles": [
         "authenticated"
       ]
-    },
-    {
-      "route": "/Profile/index.html",
-      "methods": [
-        "get"
-      ],
-      "allowedRoles": [
-        "anonymous"
-      ]
     }
+    
     
   ]
 }
