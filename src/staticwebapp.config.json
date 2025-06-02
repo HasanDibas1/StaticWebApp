@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "route": "/*",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "allowedRoles": [
+        "authenticated"
+      ]
+    },
+    {
       "route": "/Profile/index.html",
       "methods": [
         "delete"
@@ -9,5 +19,6 @@
         "anonymous"
       ]
     }
+    
   ]
 }
