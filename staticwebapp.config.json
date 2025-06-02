@@ -12,7 +12,7 @@
     },
     {
       "route": "/Profile*",
-      "redirect": "/General/index.html"
+      "rewrite": "/General/index.html"
     }
   ]
 }
