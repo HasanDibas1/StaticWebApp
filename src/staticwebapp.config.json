@@ -1,4 +1,8 @@
 {
-  "routes": [     
+  "routes": [
+    {
+      "route": "/Profile*",
+      "redirect": "/General/index.html"
+    }
   ]
 }
