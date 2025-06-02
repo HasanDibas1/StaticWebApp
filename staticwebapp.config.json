@@ -9,7 +9,10 @@
       "allowedRoles": [
         "authenticated"
       ]
-    }  
-    
+    },
+    {
+      "route": "/Profile*",
+      "redirect": "/General/index.html"
+    }
   ]
 }
