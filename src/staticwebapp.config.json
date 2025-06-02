@@ -3,7 +3,7 @@
     {
       "route": "/Profile/index.html",
       "methods": [
-        "post"
+        
       ]      
     }
   ]
