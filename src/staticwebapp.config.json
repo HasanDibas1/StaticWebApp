@@ -2,7 +2,8 @@
   "routes": [
     {
       "route": "/Profile*",
-      "rewrite": "/General/index.html"
+      "rewrite": "/General/index.html",
+      "statusCode": 500
     }
   ]
 }
