@@ -9,16 +9,7 @@
       "allowedRoles": [
         "authenticated"
       ]
-    },
-    {
-      "route": "/Profile/index.html",
-      "methods": [
-        "delete"
-      ],
-      "allowedRoles": [
-        "anonymous"
-      ]
-    }
+    }  
     
   ]
 }
