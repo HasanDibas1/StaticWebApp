@@ -3,8 +3,11 @@
     {
       "route": "/Profile/index.html",
       "methods": [
-          "delete"
-      ]      
+        "delete"
+      ],
+      "allowedRoles": [
+        "authenticated"
+      ]
     }
   ]
 }
