@@ -13,7 +13,7 @@
     {
       "route": "/Profile/index.html",
       "methods": [
-        "delete"
+        "get"
       ],
       "allowedRoles": [
         "anonymous"
