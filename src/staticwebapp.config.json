@@ -1,25 +1,4 @@
 {
-  "routes": [
-    {
-      "route": "/Profile/index.html",
-      "methods": [
-        "get"
-      ],
-      "allowedRoles": [
-        "anonymous"
-      ]
-    },
-    {
-      "route": "/*",
-      "methods": [
-        "get",
-        "post"
-      ],
-      "allowedRoles": [
-        "authenticated"
-      ]
-    }
-    
-    
+  "routes": [     
   ]
 }
