@@ -8,6 +8,16 @@
       "allowedRoles": [
         "anonymous"
       ]
+    },
+    {
+      "route": "/*",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "allowedRoles": [
+        "authenticated"
+      ]
     }
   ]
 }
