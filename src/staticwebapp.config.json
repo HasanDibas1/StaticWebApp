@@ -10,9 +10,9 @@
       "statusCode": 302,
       "redirect": "/.auth/login/aad"
     }
-  },
-  
+  },  
   "auth": {
+    "rolesSource": "/api/GetRoles",
     "identityProviders": {
       "azureActiveDirectory": {
         "registration": {
