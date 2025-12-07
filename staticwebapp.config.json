@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/*",
-      "statusCode": 403
+      "statusCode": 404
     }
   ],
   "auth": {
