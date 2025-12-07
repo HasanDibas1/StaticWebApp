@@ -2,7 +2,18 @@
   "routes": [
     {
       "route": "/*",
-      "statusCode": 404
+      "methods": [
+        "get",
+        "post"
+      ],
+      "allowedRoles": [
+        "authenticated"
+      ]
+    },
+    {
+      "route": "/Profile*",
+      "rewrite": "/General/index.html",
+      "statusCode": 500
     }
   ],
   "auth": {
