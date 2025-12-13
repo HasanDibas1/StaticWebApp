@@ -12,8 +12,7 @@
     },
     {
       "route": "/Profile*",
-      "rewrite": "/General/index.html",
-      "statusCode": 500
+      "rewrite": "/General/index.html"      
     }
   ],
   "auth": {
