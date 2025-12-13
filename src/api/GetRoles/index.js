@@ -1,5 +1,8 @@
 
 module.exports = async function (context, req) {
+    
+    context.log("FULL REQUEST:", req);
+
     // Get authenticated user info
     const clientPrincipal = req.headers["x-ms-client-principal"]
         ? JSON.parse(Buffer.from(req.headers["x-ms-client-principal"], "base64").toString("utf8"))
