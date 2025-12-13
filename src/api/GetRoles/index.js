@@ -1,6 +1,6 @@
 module.exports = async function (context, req) {
 
-
+/*
 context.log("===== REQUEST RECEIVED =====");
 
     context.log("Method:", req.method);
@@ -16,7 +16,7 @@ context.log("===== REQUEST RECEIVED =====");
     } else {
         context.log("NO clientPrincipal FOUND");
     }
-
+*/
   
     const clientPrincipal = req.body?.clientPrincipal;
 
