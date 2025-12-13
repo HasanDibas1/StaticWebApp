@@ -33,7 +33,7 @@ jobs:
           # Corrected Configuration
           # -------------------------
           app_location: "src"        # Source code folder (NO leading slash)
-          api_location: ""           # Only if you have API folder
+          api_location: "api"           # Only if you have API folder
           output_location: ""   # <<< UPDATE TO MATCH YOUR FRAMEWORK
           # -------------------------
 
@@ -48,4 +48,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_FOREST_0DAD5CF10 }}
           action: "close"
+
 
